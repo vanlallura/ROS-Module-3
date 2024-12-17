@@ -1,0 +1,283 @@
+[0.035s] Invoking command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vl/ROS_Module3_Exam/my_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces
+[0.189s] -- The C compiler identification is GNU 11.4.0
+[0.286s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.423s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.564s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.575s] -- Detecting CXX compile features
+[0.577s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.858s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.088s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.138s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.359s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.510s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.705s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.759s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.846s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.876s] -- Looking for pthread.h
+[1.994s] -- Looking for pthread.h - found
+[1.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.120s] -- Found Threads: TRUE  
+[2.661s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.186s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.202s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.358s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.358s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.358s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.358s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.432s] -- Found PythonExtra: .so  
+[4.696s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.825s] -- Added test 'lint_cmake' to check CMake code style
+[4.837s] -- Added test 'xmllint' to check XML markup files
+[4.859s] -- Configuring done
+[5.002s] -- Generating done
+[5.010s] -- Build files have been written to: /home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces
+[5.043s] Invoked command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/vl/ROS_Module3_Exam/my_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces
+[5.045s] Invoking command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces -- -j4 -l4
+[5.251s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.297s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.338s] [  5%] Built target ament_cmake_python_copy_custom_interfaces
+[6.139s] running egg_info
+[6.143s] creating custom_interfaces.egg-info
+[6.144s] writing custom_interfaces.egg-info/PKG-INFO
+[6.144s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[6.145s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[6.145s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.157s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.160s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[6.291s] [  5%] Built target ament_cmake_python_build_custom_interfaces_egg
+[7.233s] [  5%] Built target custom_interfaces__cpp
+[7.282s] [  7%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.283s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.287s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.363s] [ 15%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/multi_two_ints__functions.c.o[0m
+[7.711s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/person_info__functions.c.o[0m
+[8.024s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[8.255s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[8.328s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.968s] [ 25%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/multi_two_ints__type_support.cpp.o[0m
+[9.321s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/multi_two_ints__type_support.cpp.o[0m
+[9.669s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/multi_two_ints__type_support.cpp.o[0m
+[10.544s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/multi_two_ints__type_support_c.cpp.o[0m
+[10.634s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/person_info__type_support.cpp.o[0m
+[11.334s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/person_info__type_support.cpp.o[0m
+[11.786s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/person_info__type_support.cpp.o[0m
+[12.302s] [ 43%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[12.582s] [ 43%] Built target custom_interfaces__rosidl_typesupport_cpp
+[12.642s] [ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.692s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/person_info__type_support_c.cpp.o[0m
+[13.650s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[14.001s] [ 51%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[14.050s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.087s] [ 56%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.141s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/multi_two_ints__type_support.c.o[0m
+[14.322s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/person_info__type_support.c.o[0m
+[14.492s] [ 64%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.554s] [ 64%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[14.652s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[14.677s] [ 66%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.915s] [ 66%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[15.436s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/multi_two_ints__type_support.cpp.o[0m
+[15.437s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/person_info__type_support.cpp.o[0m
+[15.587s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[15.778s] [ 74%] Built target custom_interfaces__rosidl_typesupport_c
+[15.868s] [ 74%] Built target custom_interfaces
+[15.972s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.068s] [ 76%] Built target custom_interfaces__py
+[18.162s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_multi_two_ints_s.c.o[0m
+[18.166s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_person_info_s.c.o[0m
+[18.746s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[18.932s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[19.019s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.024s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[19.033s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.502s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.567s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.611s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[19.668s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.732s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[19.792s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.845s] Invoked command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces -- -j4 -l4
+[20.212s] Invoking command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces
+[20.236s] -- Install configuration: ""
+[20.236s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[20.238s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.239s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.239s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.239s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__struct.h
+[20.240s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__functions.h
+[20.240s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__functions.c
+[20.240s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__type_support.h
+[20.241s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/multi_two_ints.h
+[20.242s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.242s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/person_info.h
+[20.242s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.242s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__type_support.h
+[20.243s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__functions.c
+[20.244s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__functions.h
+[20.244s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__struct.h
+[20.245s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[20.246s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[20.247s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[20.248s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[20.249s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[20.250s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.250s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.251s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.251s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__rosidl_typesupport_fastrtps_c.h
+[20.252s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.252s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.253s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__rosidl_typesupport_fastrtps_c.h
+[20.253s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.254s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[20.255s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[20.256s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.256s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.257s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.257s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__rosidl_typesupport_introspection_c.h
+[20.258s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__type_support.c
+[20.259s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.259s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.260s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.261s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__rosidl_typesupport_introspection_c.h
+[20.261s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__type_support.c
+[20.262s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[20.264s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[20.265s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[20.265s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[20.266s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.266s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.267s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.267s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__traits.hpp
+[20.268s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__builder.hpp
+[20.268s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__struct.hpp
+[20.269s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/multi_two_ints.hpp
+[20.270s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.270s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.271s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__builder.hpp
+[20.271s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__traits.hpp
+[20.272s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__struct.hpp
+[20.273s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/person_info.hpp
+[20.274s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.274s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.274s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.275s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[20.276s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[20.276s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.277s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.277s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.278s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__rosidl_typesupport_fastrtps_cpp.hpp
+[20.279s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[20.280s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[20.281s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.281s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[20.282s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[20.283s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[20.283s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__type_support.cpp
+[20.284s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/multi_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[20.284s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[20.285s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[20.285s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__rosidl_typesupport_introspection_cpp.hpp
+[20.286s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/person_info__type_support.cpp
+[20.287s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[20.288s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[20.288s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[20.290s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[20.290s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[20.291s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[20.292s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[20.292s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.293s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[20.294s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[20.295s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.295s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[20.296s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.297s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[20.297s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multi_two_ints.py
+[20.298s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multi_two_ints_s.c
+[20.298s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[20.299s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[20.300s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.301s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.302s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[20.302s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[20.303s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[20.304s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[20.305s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_person_info_s.c
+[20.305s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[20.306s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_person_info.py
+[20.308s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.459s] Listing '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[20.459s] Compiling '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[20.459s] Listing '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[20.459s] Compiling '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[20.459s] Compiling '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_person_info.py'...
+[20.460s] Listing '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[20.460s] Compiling '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[20.460s] Compiling '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_multi_two_ints.py'...
+[20.479s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.479s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.481s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.482s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.483s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.485s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.485s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[20.485s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[20.486s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiTwoInts.idl
+[20.487s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/msg/PersonInfo.idl
+[20.488s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiTwoInts.srv
+[20.489s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiTwoInts_Request.msg
+[20.489s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/srv/MultiTwoInts_Response.msg
+[20.490s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/msg/PersonInfo.msg
+[20.491s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[20.491s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[20.492s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[20.493s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[20.494s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[20.495s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[20.495s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[20.496s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[20.497s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[20.498s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[20.499s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[20.499s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[20.500s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[20.501s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.501s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[20.502s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.503s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.504s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.505s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[20.506s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.507s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[20.507s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.508s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.509s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.510s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.510s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[20.511s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.512s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[20.513s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[20.513s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[20.514s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.515s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.516s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.517s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.518s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.518s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.519s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[20.520s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[20.521s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[20.527s] Invoked command in '/home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vl/ROS_Module3_Exam/my_ws/build/custom_interfaces

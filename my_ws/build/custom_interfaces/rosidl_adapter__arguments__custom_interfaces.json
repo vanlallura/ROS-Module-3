@@ -1,0 +1,7 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/vl/ROS_Module3_Exam/my_ws/src/custom_interfaces:srv/MultiTwoInts.srv",
+    "/home/vl/ROS_Module3_Exam/my_ws/src/custom_interfaces:msg/PersonInfo.msg"
+  ]
+}
