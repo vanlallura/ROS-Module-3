@@ -1,0 +1,48 @@
+[0.036s] Invoking command in '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons -- -j4 -l4
+[0.193s] [ 11%] Built target sub_param
+[0.206s] [ 22%] Built target pub_param
+[0.209s] [ 33%] Built target srv_node1
+[0.217s] [ 44%] Built target srv_node2
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target turtle_sq_shape[0m
+[0.297s] [ 55%] Built target pub_custom
+[0.321s] [ 66%] Built target sub_custom
+[0.329s] [ 77%] Built target tf2_broadcaster
+[0.334s] [ 83%] [32mBuilding CXX object CMakeFiles/turtle_sq_shape.dir/src/move_turtle_square_shape.cpp.o[0m
+[0.370s] [ 94%] Built target tf2_listener
+[7.101s] [100%] [32m[1mLinking CXX executable turtle_sq_shape[0m
+[7.469s] [100%] Built target turtle_sq_shape
+[7.494s] Invoked command in '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons -- -j4 -l4
+[7.632s] Invoking command in '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons
+[7.648s] -- Install configuration: ""
+[7.649s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_param
+[7.650s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_param
+[7.650s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node1
+[7.651s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node2
+[7.652s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_custom
+[7.653s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_custom
+[7.654s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape
+[7.659s] -- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape" to ""
+[7.660s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_broadcaster
+[7.660s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_listener
+[7.661s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch
+[7.662s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/custom_msg_display.launch.py
+[7.662s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/service_nodes_display.launch.py
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_square_shape_display.launch.py
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/param_display.launch.py
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_tf2_demo.launch.py
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/package_run_dependencies/ros_basic_lessons
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/parent_prefix_path/ros_basic_lessons
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.sh
+[7.663s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.dsv
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.sh
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.dsv
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.bash
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.sh
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.zsh
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.dsv
+[7.664s] -- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.dsv
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/packages/ros_basic_lessons
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig.cmake
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig-version.cmake
+[7.664s] -- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.xml
+[7.667s] Invoked command in '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons

@@ -8,6 +8,8 @@
 
 using namespace std::chrono_literals;
 
+const double PI = 3.141592653589793238463;
+
 class MiniParam : public rclcpp::Node
 {
   public:
@@ -25,27 +27,59 @@ class MiniParam : public rclcpp::Node
       geometry_msgs::msg::Twist turtle_data;
       int scale_factor = this->get_parameter("scale").get_parameter_value().get<float>();
       if (count_ == 0){
-        turtle_data.linear.x = 1*scale_factor;
+        turtle_data.linear.x = scale_factor;
         turtle_data.linear.y = 0;
         turtle_data.linear.z = 0;
+        turtle_data.angular.z = 0;
         count_++;
       }
       else if (count_ == 1){
         turtle_data.linear.x = 0;
-        turtle_data.linear.y = 1*scale_factor;
+        turtle_data.linear.y = 0;
         turtle_data.linear.z = 0;
+        turtle_data.angular.z = PI/2;
         count_++;
       }
       else if (count_ == 2){
-        turtle_data.linear.x = -1*scale_factor;
+        turtle_data.linear.x = scale_factor;
         turtle_data.linear.y = 0;
         turtle_data.linear.z = 0;
+        turtle_data.angular.z = 0;
         count_++;
       }
       else if (count_ == 3){
         turtle_data.linear.x = 0;
-        turtle_data.linear.y = -1*scale_factor;
+        turtle_data.linear.y = 0;
         turtle_data.linear.z = 0;
+        turtle_data.angular.z = PI/2;
+        count_++;
+      }
+      else if (count_ == 4){
+        turtle_data.linear.x = scale_factor;
+        turtle_data.linear.y = 0;
+        turtle_data.linear.z = 0;
+        turtle_data.angular.z = 0;
+        count_++;
+      }
+      else if (count_ == 5){
+        turtle_data.linear.x = 0;
+        turtle_data.linear.y = 0;
+        turtle_data.linear.z = 0;
+        turtle_data.angular.z = PI/2;
+        count_++;
+      }
+      else if (count_ == 6){
+        turtle_data.linear.x = scale_factor;
+        turtle_data.linear.y = 0;
+        turtle_data.linear.z = 0;
+        turtle_data.angular.z = 0;
+        count_++;
+      }
+      else if (count_ == 7){
+        turtle_data.linear.x = 0;
+        turtle_data.linear.y = 0;
+        turtle_data.linear.z = 0;
+        turtle_data.angular.z = PI/2;
         count_ = 0;
       }
 

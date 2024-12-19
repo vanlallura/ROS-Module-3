@@ -1,0 +1,44 @@
+[ 11%] Built target srv_node1
+[ 22%] Built target sub_param
+[ 33%] Built target srv_node2
+[ 44%] Built target pub_param
+[35m[1mConsolidate compiler generated dependencies of target turtle_sq_shape[0m
+[ 55%] Built target pub_custom
+[ 66%] Built target sub_custom
+[ 72%] [32mBuilding CXX object CMakeFiles/turtle_sq_shape.dir/src/move_turtle_square_shape.cpp.o[0m
+[ 83%] Built target tf2_broadcaster
+[ 94%] Built target tf2_listener
+[100%] [32m[1mLinking CXX executable turtle_sq_shape[0m
+[100%] Built target turtle_sq_shape
+-- Install configuration: ""
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_param
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_param
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node1
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node2
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_custom
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_custom
+-- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape
+-- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape" to ""
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_broadcaster
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_listener
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/custom_msg_display.launch.py
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/service_nodes_display.launch.py
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_square_shape_display.launch.py
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/param_display.launch.py
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_tf2_demo.launch.py
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/package_run_dependencies/ros_basic_lessons
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/parent_prefix_path/ros_basic_lessons
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.sh
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.dsv
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.bash
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.sh
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.zsh
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.dsv
+-- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.dsv
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/packages/ros_basic_lessons
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig.cmake
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig-version.cmake
+-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.xml

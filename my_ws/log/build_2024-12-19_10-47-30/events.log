@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000284] (ros_basic_lessons) JobQueued: {'identifier': 'ros_basic_lessons', 'dependencies': OrderedDict()}
+[0.000880] (ros_basic_lessons) JobStarted: {'identifier': 'ros_basic_lessons'}
+[0.038008] (ros_basic_lessons) JobProgress: {'identifier': 'ros_basic_lessons', 'progress': 'cmake'}
+[0.041580] (ros_basic_lessons) JobProgress: {'identifier': 'ros_basic_lessons', 'progress': 'build'}
+[0.041734] (ros_basic_lessons) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons', '--', '-j4', '-l4'], 'cwd': '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vl'), ('LC_TIME', 'my_MM'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib/:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib:/home/vl/ros2/workspace/install/tutorial_interfaces/lib:/home/vl/ros2/my_ws/install/custom_interfaces/lib:/home/vl/bobo_sim/ws/install/vizanti_msgs/lib:/home/vl/ros2/bobo/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vl'), ('OLDPWD', '/home/vl/ROS_Module3_Exam'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'my_MM'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install:/home/vl/ros2/workspace/install:/home/vl/ros2/my_ws/install:/home/vl/bobo_sim/ws/install:/home/vl/ros2/bobo/install:/home/vl/ros2/sim_ws/install:/home/vl/ros2/bobo_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig/:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell:@/tmp/.ICE-unix/2007,unix/dell:/tmp/.ICE-unix/2007'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'my_MM'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2762577b_3dea_4d91_9b96_11200b96c024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'my_MM'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces:/home/vl/ros2/workspace/install/cpp_parameters:/home/vl/ros2/workspace/install/tutorial_interfaces:/home/vl/ros2/workspace/install/robot_car:/home/vl/ros2/workspace/install/robot_arm_urdf:/home/vl/ros2/workspace/install/robot_arm:/home/vl/ros2/workspace/install/my_robot:/home/vl/ros2/workspace/install/learning_tf2_cpp:/home/vl/ros2/my_ws/install/ros_basic_lessons:/home/vl/ros2/my_ws/install/custom_interfaces:/home/vl/bobo_sim/ws/install/vizanti:/home/vl/bobo_sim/ws/install/vizanti_server:/home/vl/bobo_sim/ws/install/vizanti_demos:/home/vl/bobo_sim/ws/install/vizanti_msgs:/home/vl/bobo_sim/ws/install/vizanti_cpp:/home/vl/bobo_sim/ws/install/romrobots_gazebo:/home/vl/bobo_sim/ws/install/romrobots_description:/home/vl/bobo_sim/ws/install/rom_robotics_joy:/home/vl/bobo_sim/ws/install/bobo_nav2:/home/vl/bobo_sim/ws/install/bobo_ekf:/home/vl/bobo_sim/ws/install/bobo_carto:/home/vl/bobo_sim/ws/install/bobo_bt:/home/vl/bobo_sim/ws/install/bobo_bringup:/home/vl/ros2/bobo/install/vizanti:/home/vl/ros2/bobo/install/vizanti_server:/home/vl/ros2/bobo/install/vizanti_demos:/home/vl/ros2/bobo/install/vizanti_msgs:/home/vl/ros2/bobo/install/vizanti_cpp:/home/vl/ros2/bobo/install/romrobots_gazebo:/home/vl/ros2/bobo/install/romrobots_description:/home/vl/ros2/bobo/install/rom_robotics_joy:/home/vl/ros2/bobo/install/bobo_nav2:/home/vl/ros2/bobo/install/bobo_ekf:/home/vl/ros2/bobo/install/bobo_carto:/home/vl/ros2/bobo/install/bobo_bt:/home/vl/ros2/bobo/install/bobo_bringup:/home/vl/ros2/sim_ws/install/rom2109_gazebo:/home/vl/ros2/sim_ws/install/rom2109_description:/home/vl/ros2/bobo_workspace/install/rom2109_gazebo:/home/vl/ros2/bobo_workspace/install/rom2109_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'my_MM'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'my_MM'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'my_MM'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/vl/ros2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/vl/ros2/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/vl/bobo_sim/ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/vl/ros2/bobo/install/vizanti_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'my_MM'), ('LC_PAPER', 'my_MM'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces:/home/vl/ros2/workspace/install/cpp_parameters:/home/vl/ros2/workspace/install/tutorial_interfaces:/home/vl/ros2/workspace/install/robot_car:/home/vl/ros2/workspace/install/robot_arm_urdf:/home/vl/ros2/workspace/install/robot_arm:/home/vl/ros2/workspace/install/my_robot:/home/vl/ros2/workspace/install/learning_tf2_cpp:/home/vl/ros2/my_ws/install/ros_basic_lessons:/home/vl/ros2/my_ws/install/custom_interfaces:/home/vl/bobo_sim/ws/install/vizanti:/home/vl/bobo_sim/ws/install/vizanti_server:/home/vl/bobo_sim/ws/install/vizanti_demos:/home/vl/bobo_sim/ws/install/vizanti_msgs:/home/vl/bobo_sim/ws/install/vizanti_cpp:/home/vl/bobo_sim/ws/install/romrobots_gazebo:/home/vl/bobo_sim/ws/install/romrobots_description:/home/vl/bobo_sim/ws/install/rom_robotics_joy:/home/vl/bobo_sim/ws/install/bobo_nav2:/home/vl/bobo_sim/ws/install/bobo_ekf:/home/vl/bobo_sim/ws/install/bobo_carto:/home/vl/bobo_sim/ws/install/bobo_bt:/home/vl/bobo_sim/ws/install/bobo_bringup:/home/vl/ros2/bobo/install/vizanti:/home/vl/ros2/bobo/install/vizanti_server:/home/vl/ros2/bobo/install/vizanti_demos:/home/vl/ros2/bobo/install/vizanti_msgs:/home/vl/ros2/bobo/install/vizanti_cpp:/home/vl/ros2/bobo/install/romrobots_gazebo:/home/vl/ros2/bobo/install/romrobots_description:/home/vl/ros2/bobo/install/rom_robotics_joy:/home/vl/ros2/bobo/install/bobo_nav2:/home/vl/ros2/bobo/install/bobo_ekf:/home/vl/ros2/bobo/install/bobo_carto:/home/vl/ros2/bobo/install/bobo_bt:/home/vl/ros2/bobo/install/bobo_bringup:/home/vl/ros2/sim_ws/install/rom2109_gazebo:/home/vl/ros2/sim_ws/install/rom2109_description:/home/vl/ros2/bobo_workspace/install/rom2109_gazebo:/home/vl/ros2/bobo_workspace/install/rom2109_description:/opt/ros/humble')]), 'shell': False}
+[0.099298] (-) TimerEvent: {}
+[0.183058] (ros_basic_lessons) StdoutLine: {'line': b'[ 11%] Built target pub_param\n'}
+[0.193843] (ros_basic_lessons) StdoutLine: {'line': b'[ 22%] Built target sub_param\n'}
+[0.199822] (-) TimerEvent: {}
+[0.255635] (ros_basic_lessons) StdoutLine: {'line': b'[ 33%] Built target pub_custom\n'}
+[0.259829] (ros_basic_lessons) StdoutLine: {'line': b'[ 44%] Built target srv_node2\n'}
+[0.301186] (-) TimerEvent: {}
+[0.321991] (ros_basic_lessons) StdoutLine: {'line': b'[ 55%] Built target sub_custom\n'}
+[0.329789] (ros_basic_lessons) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtle_sq_shape.dir/src/move_turtle_square_shape.cpp.o\x1b[0m\n'}
+[0.383786] (ros_basic_lessons) StdoutLine: {'line': b'[ 72%] Built target tf2_broadcaster\n'}
+[0.402575] (-) TimerEvent: {}
+[0.451389] (ros_basic_lessons) StdoutLine: {'line': b'[ 83%] Built target tf2_listener\n'}
+[0.502717] (-) TimerEvent: {}
+[0.525477] (ros_basic_lessons) StdoutLine: {'line': b'[ 94%] Built target srv_node1\n'}
+[0.602862] (-) TimerEvent: {}
+[0.703368] (-) TimerEvent: {}
+[0.803895] (-) TimerEvent: {}
+[0.907069] (-) TimerEvent: {}
+[1.009907] (-) TimerEvent: {}
+[1.110490] (-) TimerEvent: {}
+[1.210869] (-) TimerEvent: {}
+[1.311351] (-) TimerEvent: {}
+[1.411765] (-) TimerEvent: {}
+[1.512623] (-) TimerEvent: {}
+[1.613040] (-) TimerEvent: {}
+[1.713425] (-) TimerEvent: {}
+[1.813797] (-) TimerEvent: {}
+[1.914527] (-) TimerEvent: {}
+[2.014959] (-) TimerEvent: {}
+[2.115329] (-) TimerEvent: {}
+[2.215713] (-) TimerEvent: {}
+[2.316096] (-) TimerEvent: {}
+[2.416481] (-) TimerEvent: {}
+[2.517193] (-) TimerEvent: {}
+[2.617565] (-) TimerEvent: {}
+[2.718547] (-) TimerEvent: {}
+[2.818996] (-) TimerEvent: {}
+[2.919549] (-) TimerEvent: {}
+[3.020460] (-) TimerEvent: {}
+[3.120982] (-) TimerEvent: {}
+[3.221399] (-) TimerEvent: {}
+[3.321779] (-) TimerEvent: {}
+[3.422357] (-) TimerEvent: {}
+[3.522780] (-) TimerEvent: {}
+[3.624826] (-) TimerEvent: {}
+[3.725245] (-) TimerEvent: {}
+[3.825645] (-) TimerEvent: {}
+[3.927750] (-) TimerEvent: {}
+[4.028142] (-) TimerEvent: {}
+[4.128544] (-) TimerEvent: {}
+[4.228995] (-) TimerEvent: {}
+[4.329433] (-) TimerEvent: {}
+[4.429835] (-) TimerEvent: {}
+[4.530446] (-) TimerEvent: {}
+[4.630825] (-) TimerEvent: {}
+[4.731191] (-) TimerEvent: {}
+[4.831566] (-) TimerEvent: {}
+[4.931968] (-) TimerEvent: {}
+[5.032354] (-) TimerEvent: {}
+[5.132745] (-) TimerEvent: {}
+[5.233128] (-) TimerEvent: {}
+[5.334707] (-) TimerEvent: {}
+[5.435673] (-) TimerEvent: {}
+[5.536034] (-) TimerEvent: {}
+[5.636472] (-) TimerEvent: {}
+[5.736981] (-) TimerEvent: {}
+[5.837420] (-) TimerEvent: {}
+[5.937912] (-) TimerEvent: {}
+[6.038306] (-) TimerEvent: {}
+[6.139800] (-) TimerEvent: {}
+[6.242769] (-) TimerEvent: {}
+[6.343219] (-) TimerEvent: {}
+[6.443888] (-) TimerEvent: {}
+[6.544253] (-) TimerEvent: {}
+[6.644947] (-) TimerEvent: {}
+[6.745760] (-) TimerEvent: {}
+[6.846184] (-) TimerEvent: {}
+[6.946822] (-) TimerEvent: {}
+[7.047207] (-) TimerEvent: {}
+[7.147604] (-) TimerEvent: {}
+[7.247977] (-) TimerEvent: {}
+[7.348333] (-) TimerEvent: {}
+[7.448727] (-) TimerEvent: {}
+[7.549095] (-) TimerEvent: {}
+[7.649773] (-) TimerEvent: {}
+[7.750576] (-) TimerEvent: {}
+[7.851785] (-) TimerEvent: {}
+[7.952299] (-) TimerEvent: {}
+[8.052732] (-) TimerEvent: {}
+[8.153512] (-) TimerEvent: {}
+[8.253931] (-) TimerEvent: {}
+[8.354317] (-) TimerEvent: {}
+[8.454769] (-) TimerEvent: {}
+[8.555249] (-) TimerEvent: {}
+[8.655739] (-) TimerEvent: {}
+[8.756493] (-) TimerEvent: {}
+[8.857054] (-) TimerEvent: {}
+[8.957469] (-) TimerEvent: {}
+[9.057897] (-) TimerEvent: {}
+[9.158299] (-) TimerEvent: {}
+[9.227056] (ros_basic_lessons) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_sq_shape\x1b[0m\n'}
+[9.258431] (-) TimerEvent: {}
+[9.358785] (-) TimerEvent: {}
+[9.459298] (-) TimerEvent: {}
+[9.559758] (-) TimerEvent: {}
+[9.660178] (-) TimerEvent: {}
+[9.664215] (ros_basic_lessons) StdoutLine: {'line': b'[100%] Built target turtle_sq_shape\n'}
+[9.693723] (ros_basic_lessons) CommandEnded: {'returncode': 0}
+[9.760937] (-) TimerEvent: {}
+[9.852767] (ros_basic_lessons) JobProgress: {'identifier': 'ros_basic_lessons', 'progress': 'install'}
+[9.861057] (-) TimerEvent: {}
+[9.879350] (ros_basic_lessons) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons'], 'cwd': '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vl'), ('LC_TIME', 'my_MM'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/lib/:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/lib:/home/vl/ros2/workspace/install/tutorial_interfaces/lib:/home/vl/ros2/my_ws/install/custom_interfaces/lib:/home/vl/bobo_sim/ws/install/vizanti_msgs/lib:/home/vl/ros2/bobo/install/vizanti_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/vl'), ('OLDPWD', '/home/vl/ROS_Module3_Exam'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'my_MM'), ('SYSTEMD_EXEC_PID', '2308'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install:/home/vl/ros2/workspace/install:/home/vl/ros2/my_ws/install:/home/vl/bobo_sim/ws/install:/home/vl/ros2/bobo/install:/home/vl/ros2/sim_ws/install:/home/vl/ros2/bobo_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig/:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vl'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dell:@/tmp/.ICE-unix/2007,unix/dell:/tmp/.ICE-unix/2007'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'my_MM'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2762577b_3dea_4d91_9b96_11200b96c024'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'my_MM'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces:/home/vl/ros2/workspace/install/cpp_parameters:/home/vl/ros2/workspace/install/tutorial_interfaces:/home/vl/ros2/workspace/install/robot_car:/home/vl/ros2/workspace/install/robot_arm_urdf:/home/vl/ros2/workspace/install/robot_arm:/home/vl/ros2/workspace/install/my_robot:/home/vl/ros2/workspace/install/learning_tf2_cpp:/home/vl/ros2/my_ws/install/ros_basic_lessons:/home/vl/ros2/my_ws/install/custom_interfaces:/home/vl/bobo_sim/ws/install/vizanti:/home/vl/bobo_sim/ws/install/vizanti_server:/home/vl/bobo_sim/ws/install/vizanti_demos:/home/vl/bobo_sim/ws/install/vizanti_msgs:/home/vl/bobo_sim/ws/install/vizanti_cpp:/home/vl/bobo_sim/ws/install/romrobots_gazebo:/home/vl/bobo_sim/ws/install/romrobots_description:/home/vl/bobo_sim/ws/install/rom_robotics_joy:/home/vl/bobo_sim/ws/install/bobo_nav2:/home/vl/bobo_sim/ws/install/bobo_ekf:/home/vl/bobo_sim/ws/install/bobo_carto:/home/vl/bobo_sim/ws/install/bobo_bt:/home/vl/bobo_sim/ws/install/bobo_bringup:/home/vl/ros2/bobo/install/vizanti:/home/vl/ros2/bobo/install/vizanti_server:/home/vl/ros2/bobo/install/vizanti_demos:/home/vl/ros2/bobo/install/vizanti_msgs:/home/vl/ros2/bobo/install/vizanti_cpp:/home/vl/ros2/bobo/install/romrobots_gazebo:/home/vl/ros2/bobo/install/romrobots_description:/home/vl/ros2/bobo/install/rom_robotics_joy:/home/vl/ros2/bobo/install/bobo_nav2:/home/vl/ros2/bobo/install/bobo_ekf:/home/vl/ros2/bobo/install/bobo_carto:/home/vl/ros2/bobo/install/bobo_bt:/home/vl/ros2/bobo/install/bobo_bringup:/home/vl/ros2/sim_ws/install/rom2109_gazebo:/home/vl/ros2/sim_ws/install/rom2109_description:/home/vl/ros2/bobo_workspace/install/rom2109_gazebo:/home/vl/ros2/bobo_workspace/install/rom2109_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'my_MM'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'my_MM'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'my_MM'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vl/ROS_Module3_Exam/my_ws/build/ros_basic_lessons'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/vl/ros2/workspace/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/vl/ros2/my_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/vl/bobo_sim/ws/install/vizanti_msgs/local/lib/python3.10/dist-packages:/home/vl/ros2/bobo/install/vizanti_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'my_MM'), ('LC_PAPER', 'my_MM'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons:/home/vl/ROS_Module3_Exam/my_ws/install/custom_interfaces:/home/vl/ros2/workspace/install/cpp_parameters:/home/vl/ros2/workspace/install/tutorial_interfaces:/home/vl/ros2/workspace/install/robot_car:/home/vl/ros2/workspace/install/robot_arm_urdf:/home/vl/ros2/workspace/install/robot_arm:/home/vl/ros2/workspace/install/my_robot:/home/vl/ros2/workspace/install/learning_tf2_cpp:/home/vl/ros2/my_ws/install/ros_basic_lessons:/home/vl/ros2/my_ws/install/custom_interfaces:/home/vl/bobo_sim/ws/install/vizanti:/home/vl/bobo_sim/ws/install/vizanti_server:/home/vl/bobo_sim/ws/install/vizanti_demos:/home/vl/bobo_sim/ws/install/vizanti_msgs:/home/vl/bobo_sim/ws/install/vizanti_cpp:/home/vl/bobo_sim/ws/install/romrobots_gazebo:/home/vl/bobo_sim/ws/install/romrobots_description:/home/vl/bobo_sim/ws/install/rom_robotics_joy:/home/vl/bobo_sim/ws/install/bobo_nav2:/home/vl/bobo_sim/ws/install/bobo_ekf:/home/vl/bobo_sim/ws/install/bobo_carto:/home/vl/bobo_sim/ws/install/bobo_bt:/home/vl/bobo_sim/ws/install/bobo_bringup:/home/vl/ros2/bobo/install/vizanti:/home/vl/ros2/bobo/install/vizanti_server:/home/vl/ros2/bobo/install/vizanti_demos:/home/vl/ros2/bobo/install/vizanti_msgs:/home/vl/ros2/bobo/install/vizanti_cpp:/home/vl/ros2/bobo/install/romrobots_gazebo:/home/vl/ros2/bobo/install/romrobots_description:/home/vl/ros2/bobo/install/rom_robotics_joy:/home/vl/ros2/bobo/install/bobo_nav2:/home/vl/ros2/bobo/install/bobo_ekf:/home/vl/ros2/bobo/install/bobo_carto:/home/vl/ros2/bobo/install/bobo_bt:/home/vl/ros2/bobo/install/bobo_bringup:/home/vl/ros2/sim_ws/install/rom2109_gazebo:/home/vl/ros2/sim_ws/install/rom2109_description:/home/vl/ros2/bobo_workspace/install/rom2109_gazebo:/home/vl/ros2/bobo_workspace/install/rom2109_description:/opt/ros/humble')]), 'shell': False}
+[9.902482] (ros_basic_lessons) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.903041] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_param\n'}
+[9.903869] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_param\n'}
+[9.904974] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node1\n'}
+[9.906034] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/srv_node2\n'}
+[9.906843] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/pub_custom\n'}
+[9.907648] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/sub_custom\n'}
+[9.908460] (ros_basic_lessons) StdoutLine: {'line': b'-- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape\n'}
+[9.911432] (ros_basic_lessons) StdoutLine: {'line': b'-- Set runtime path of "/home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/turtle_sq_shape" to ""\n'}
+[9.911699] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_broadcaster\n'}
+[9.912452] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/lib/ros_basic_lessons/tf2_listener\n'}
+[9.912743] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch\n'}
+[9.913028] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/custom_msg_display.launch.py\n'}
+[9.913288] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/service_nodes_display.launch.py\n'}
+[9.913586] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_square_shape_display.launch.py\n'}
+[9.913899] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/param_display.launch.py\n'}
+[9.914179] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/launch/turtle_tf2_demo.launch.py\n'}
+[9.914412] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/package_run_dependencies/ros_basic_lessons\n'}
+[9.914579] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/parent_prefix_path/ros_basic_lessons\n'}
+[9.914890] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.sh\n'}
+[9.915054] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/ament_prefix_path.dsv\n'}
+[9.915309] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.sh\n'}
+[9.915648] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/environment/path.dsv\n'}
+[9.915870] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.bash\n'}
+[9.916031] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.sh\n'}
+[9.916181] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.zsh\n'}
+[9.916333] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/local_setup.dsv\n'}
+[9.916482] (ros_basic_lessons) StdoutLine: {'line': b'-- Installing: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.dsv\n'}
+[9.916628] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ament_index/resource_index/packages/ros_basic_lessons\n'}
+[9.922181] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig.cmake\n'}
+[9.922904] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/cmake/ros_basic_lessonsConfig-version.cmake\n'}
+[9.923240] (ros_basic_lessons) StdoutLine: {'line': b'-- Up-to-date: /home/vl/ROS_Module3_Exam/my_ws/install/ros_basic_lessons/share/ros_basic_lessons/package.xml\n'}
+[9.923464] (ros_basic_lessons) CommandEnded: {'returncode': 0}
+[9.961192] (-) TimerEvent: {}
+[10.062482] (-) TimerEvent: {}
+[10.074946] (ros_basic_lessons) JobEnded: {'identifier': 'ros_basic_lessons', 'rc': 0}
+[10.076093] (-) EventReactorShutdown: {}
